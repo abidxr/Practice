@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 1</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Table -->
+    <table border="1px solid">
+        <colgroup>
+            <col span="2" style="background-color: green;">
+            </colgroup>
+        <tr>
+            <caption>Monthly savings</caption>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Abid</td>
+            <td>Abid LTD</td>
+            <td>37463764378</td>
+            <td>BD</td>
+        </tr>
+    </table> <br>
+
+
+    <!-- FORM -->
+     <div id="container">
+<form id="form" action="/Hello.html">
+        <label defa for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name Here" required>
+
+        <!-- Radio  -->
+         <p>Choose your Hobby:</p>
+         <input type="radio" id="skating" name="hobby" value="Skating">
+         <label for="skating">Skating</label><br>
+         <input type="radio" id="reading" name="hobby" value="Reading">
+         <label for="reading">Reading</label> <br>
+         <input type="radio" id="sleeping" name="hobby" value="Sleeping">
+         <label for="sleeping">Sleeping</label>
+
+         <p>Choose the countries you want to visit:</p>
+         <input type="checkbox" id="c1" name="c1" value="USA">
+         <label for="c1">USA</label><br>
+         <input type="checkbox" id="c2" name="c2" value="Finland">
+         <label for="c2">Finland</label><br>
+         <input type="checkbox" id="c3" name="c3" value="Australia">
+         <label for="c3">Australia</label>
+         <br>
+         <br>
+
+         <input type="submit" value="Submit">
+         <input type="reset" value="Reset">
+
+    </form>
+     </div>
+    
+</body>
+</html>
